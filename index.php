@@ -1,6 +1,6 @@
 <?php
 //error_reporting(E_ALL);
-$ROUTER_IP=array("ASR_PRABUTY"=>"45.128.111.250","ASR_KWIDZYN"=>"45.128.111.251");
+$ROUTER_IP=array("ASR1"=>"xxx.xxx.xxx.xxx","ASR2"=>"xxx.xxx.xxx.xxx");
 $ROUTER_SNMP_COM="ASar12jfa123";
 $OID_WALK_ALL_SESSION="1.3.6.1.4.1.9.9.150.1.1.3.1.2";
 $OID_GET_INTERFACE_ID="1.3.6.1.4.1.9.9.150.1.1.3.1.8";
