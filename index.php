@@ -7,7 +7,7 @@ $OID_GET_INTERFACE_ID="1.3.6.1.4.1.9.9.150.1.1.3.1.8";
 $OID_GET_SUBSCRIBER_IP="1.3.6.1.4.1.9.9.150.1.1.3.1.3";
 snmp_set_valueretrieval(SNMP_VALUE_PLAIN);
 
-if ($_GET['monitoruj']=='true')
+if (@$_GET['monitoruj']=='true')
 {
     $subscriber_interface_id=$_GET['subscriber_interface_id'];
     $router_ip=$_GET['router_ip'];
@@ -22,7 +22,7 @@ if ($_GET['monitoruj']=='true')
     exit;
 }
 
-if ($_GET['load_site']=='true')
+if (@$_GET['load_site']=='true')
 {
     foreach ($ROUTER_IP as $router_key =>$router_val)
     {
